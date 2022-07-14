@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "7gIgaJGjKuxfqLXhCh0oGg",
+    "name" : "HelloEDF",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "DJSLlBWlD2pHALV-gt-12384910-2022-07-14T12:51:30.47Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
