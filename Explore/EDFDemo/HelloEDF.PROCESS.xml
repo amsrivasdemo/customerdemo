@@ -1,7 +1,7 @@
 <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
                    xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
    <types1:Item>
-      <types1:EntryId>DJSLlBWlD2pHALV-gt-12384910-2022-07-14T12:51:30.47Z::pd.xml</types1:EntryId>
+      <types1:EntryId>GrZVNKVlDjAqQHh-gt-7865711-2022-07-15T12:23:04.552Z::pd.xml</types1:EntryId>
       <types1:Name>HelloEDF</types1:Name>
       <types1:MimeType>application/xml+process</types1:MimeType>
       <types1:Description/>
@@ -11,12 +11,11 @@
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
       <types1:CreatedBy>amar.ps.edf</types1:CreatedBy>
-      <types1:CreationDate>2022-07-14T12:51:30Z</types1:CreationDate>
-      <types1:ModifiedBy>amar.ps.edf</types1:ModifiedBy>
-      <types1:ModificationDate>2022-07-14T18:09:55Z</types1:ModificationDate>
+      <types1:CreationDate>2022-07-15T12:23:05Z</types1:CreationDate>
+      <types1:ModifiedBy/>
       <types1:PublicationStatus>published</types1:PublicationStatus>
       <types1:PublishedBy>amar.ps.edf</types1:PublishedBy>
-      <types1:PublicationDate>2022-07-14T18:10:00Z</types1:PublicationDate>
+      <types1:PublicationDate>2022-07-15T12:23:08Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/spi.HelloEDF/HelloEDF.pd.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -32,7 +31,7 @@
             <tags>.anonymous</tags>
             <generator>Informatica Process Designer 11</generator>
             <input>
-               <parameter description="" name="name" type="string">
+               <parameter description="" name="input" type="string">
                   <options>
                      <option name="required">false</option>
                   </options>
@@ -53,21 +52,21 @@
             </deployment>
             <flow id="a">
                <start id="b">
-                  <link id="l5l14k3s" targetId="l5l14k3r"/>
+                  <link id="l5mfjnri" targetId="l5mfjnrh"/>
                </start>
-               <assignment id="l5l14k3r">
+               <assignment id="l5mfjnrh">
                   <title>Assignment to Response</title>
                   <operation source="formula" to="output.Response">
-                     <expression language="XQuery">"Hello Demo To " ||$input.name </expression>
+                     <expression language="XQuery">"Hello "||$input.input </expression>
                   </operation>
-                  <link id="l5l14k3t" targetId="c"/>
+                  <link id="l5mfjnrj" targetId="c"/>
                </assignment>
                <end id="c"/>
             </flow>
          </process>
       </types1:Entry>
-      <types1:GUID>7gIgaJGjKuxfqLXhCh0oGg</types1:GUID>
+      <types1:GUID>kFjvkwZC1whlh09tfCUpYt</types1:GUID>
       <types1:DisplayName>HelloEDF</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-07-14T18:10:20.672Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-07-15T12:31:59.58Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
